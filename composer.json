@@ -1,0 +1,32 @@
+{
+    "name": "sil2/vf-api",
+    "type": "library",
+    "description": "test API ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oleg Stremin",
+            "email": "stremino@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "fakerphp/faker": "^1.9.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Sil2\\VfApi\\": "src/",
+          "Sil2\\VfApi\\Tests\\": "tests/",
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    },
+     "extra": {
+         "laravel": {
+             "providers": [
+                "Sil2\\VfApi\\VfApiIntegrationServiceProvider"
+              ]
+         }
+     }
+}
