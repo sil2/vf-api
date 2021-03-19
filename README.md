@@ -1,4 +1,4 @@
-# Vanilla Simple API 
+# Simple API 
 
 ## Requirements
 
@@ -19,14 +19,14 @@ php artisan migrate
 OR to create tables and get 100 test recorords
 
 ```bash
-php artisan  vf-api:install 
+php artisan vf-api:install 
 
 ```
 
 Publish package assets
 
 ```bash
-php artisan pa vendor:publish --provider="Sil2\VfApi\VfApiIntegrationServiceProvider"
+php artisan vendor:publish --provider="Sil2\VfApi\VfApiIntegrationServiceProvider"
 
 ```
 
