@@ -15,7 +15,7 @@
     "autoload": {
         "psr-4": {
           "Sil2\\VfApi\\": "src/",
-          "Sil2\\VfApi\\Tests\\": "tests/",
+          "Sil2\\VfApi\\Tests\\": "tests/"
         }
     },
     "config": {
